@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+/*Things left to do - make nice tooltips for profile, wishlist, basket and chat*/
+
+/*Navbar START*/
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-left {
+    width: 150px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-nook {
+    font-weight: 400;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    color: var(--heading-color);
+    letter-spacing: -.0625rem;
+}
+
+.nav-nook:hover { /*make this a link back to home page*/
+    cursor: pointer;
+}
+
+.nav-right {
+    width: 600px;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat {
+    height: 30px;
+    cursor: pointer;
+}
+
+.wish-list {
+    height: 30px;
+    cursor: pointer;
+}
+
+.basket {
+    height: 30px;
+    cursor: pointer;
+}
+
+.user {
+    height: 40px;
+    cursor: pointer;
+}
+
+.shop {
+    height: 30px;
+    cursor: pointer;
+}
+/*Navbar END*/
