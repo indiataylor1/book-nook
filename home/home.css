@@ -1,7 +1,3 @@
-* {
-    font-weight: 400;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
-}
 /*Welcome hero START */
 .welcome {
     background-image: url("/assets/book7.jpg");
@@ -12,11 +8,12 @@
     margin-top: 60px;
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
 
 .story-starts {  
     font-weight: 400;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--heading-color);
     letter-spacing: -.0625rem;
     color: bisque;
@@ -42,7 +39,7 @@
     border-radius: 20px;
     font-size: 17px;
     padding: 15px 30px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sign-up-button:hover {
@@ -61,7 +58,7 @@
 
 .what-title {
     font-weight: 400;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--heading-color);
     letter-spacing: -.0625rem;
     color: black;
@@ -75,45 +72,113 @@
     padding-left: 150px;
     padding-right: 150px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .para {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 /*What we do END */
 
-/*Explore Section START */
+/*Grid Section START */
 
 .grid-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
+    text-align: center;
+    color: bisque;
 }
 
 .shop-grid {
     flex: 1;
-    border: solid 1px lightcoral;
     height: 500px;
+    background-image: url(/assets/book3.jpg);
+    /*background: linear-gradient(rgba(0,0,0,0.7));*/
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.shop-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.shop-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
 }
 
 .connect-grid {
     flex: 1;
-    border: solid 1px lightcoral;
     height: 500px;
+    background-image: url(/assets/reading1.jpg);
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.connect-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.connect-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wishlist-grid {
     flex: 1;
-    border: solid 1px lightcoral;
     height: 500px;
+    background-image: url(/assets/book1.jpg);
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.wish-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.wish-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bag-grid {
     flex: 1;
-    border: solid 1px lightcoral;
     height: 500px;
+    background-image: url(/assets/library.jpg);
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.bag-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.bag-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Quote START */
@@ -129,11 +194,11 @@
 
 .quote-line {
     font-weight: 500;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--heading-color);
     letter-spacing: -.0625rem;
     color: black;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
 }
 /*Quote END*/
@@ -154,12 +219,13 @@
 
 .sustain-title {  
     font-weight: 400;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--heading-color);
     letter-spacing: -.0625rem;
     color: bisque;
     margin-top: 180px;
     font-size: 60px;
+    text-align: center;
 }
 
 .learn-more {
@@ -180,7 +246,7 @@
     border-radius: 20px;
     font-size: 17px;
     padding: 15px 30px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .learn-more-button:hover {

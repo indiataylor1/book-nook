@@ -1,0 +1,250 @@
+/*Welcome hero START */
+.welcome {
+    background-image: url("/assets/library.jpg");
+    height: 550px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 60px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.swap-shop {  
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: var(--heading-color);
+    letter-spacing: -.0625rem;
+    color: bisque;
+    margin-top: 180px;
+    font-size: 60px;
+}
+
+.search-bar-input {
+    
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: bisque;
+    border: solid 1.5px black;
+    /*need a type cursor*/
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 30px;
+    outline: none;
+}
+
+/*Welcome hero END*/
+
+/*What we do START*/
+.what-we-do {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.what-title {
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: var(--heading-color);
+    letter-spacing: -.0625rem;
+    color: black;
+    font-size: 60px;
+} 
+
+.what-we-do-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.para {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+/*What we do END */
+
+/*Grid Section START */
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    text-align: center;
+    color: bisque;
+}
+
+.shop-grid {
+    flex: 1;
+    height: 500px;
+    background-image: url(/assets/book3.jpg);
+    /*background: linear-gradient(rgba(0,0,0,0.7));*/
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.shop-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.shop-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+
+.connect-grid {
+    flex: 1;
+    height: 500px;
+    background-image: url(/assets/reading1.jpg);
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.connect-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.connect-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wishlist-grid {
+    flex: 1;
+    height: 500px;
+    background-image: url(/assets/book1.jpg);
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.wish-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.wish-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bag-grid {
+    flex: 1;
+    height: 500px;
+    background-image: url(/assets/library.jpg);
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.bag-heading {
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+}
+
+.bag-para {
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Quote START */
+.quote-heading {
+    display: flex;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-bottom: 120px;
+}
+
+.quote-line {
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    color: var(--heading-color);
+    letter-spacing: -.0625rem;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+/*Quote END*/
+
+
+
+.sustain-section {
+    background-image: url("/assets/sustain2.jpg");
+    height: 550px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 60px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 150px;
+}
+
+.sustain-title {  
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: var(--heading-color);
+    letter-spacing: -.0625rem;
+    color: bisque;
+    margin-top: 180px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.learn-more-button {
+    appearance: none;
+    background: none;
+    border: solid 2px lightcoral;
+    outline: none;
+    cursor: pointer;
+    color: bisque;
+    transition: 0.4s;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 15px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.learn-more-button:hover {
+    background-color: lightcoral;
+}
+
+

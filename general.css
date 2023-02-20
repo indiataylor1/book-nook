@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-family: 'Roboto Slab', serif;
     align-items: center;
     margin-top: 10px;
 }
@@ -24,7 +24,7 @@ body {
 
 .nav-nook {
     font-weight: 400;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--heading-color);
     letter-spacing: -.0625rem;
 }
@@ -49,11 +49,6 @@ body {
 }
 
 .wish-list {
-    height: 30px;
-    cursor: pointer;
-}
-
-.basket {
     height: 30px;
     cursor: pointer;
 }
