@@ -28,9 +28,9 @@ Side information: To use the application in a special environment use ```lorem i
 ## Collaboration
 ***
 Collaboraters on this project are:
-> NAME HERE
-> NAME HERE
-> NAME HERE
+> Veera
+> Joseph
+> Adam
 ## FAQs
 ***
 A list of frequently asked questions
