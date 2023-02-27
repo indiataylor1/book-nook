@@ -3,22 +3,22 @@ const { Book } = require('../models');
 const bookData = [
     {
         book_name: 'The Silent Patient',
-        price: 14.99,
+        price: 29.99,
         genre_id: 5,
     },
     {
         book_name: 'The Likeness',
-        price: 90.0,
+        price: 29.99,
         genre_id: 1,
     },
     {
         book_name: 'Into Thin Air',
-        price: 22.99,
+        price: 29.99,
         genre_id: 7,
     },
     {
         book_name: 'Outlander',
-        price: 12.99,
+        price: 29.99,
         genre_id: 4,
     },
     {
