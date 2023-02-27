@@ -4,7 +4,7 @@ const withAuth = require('../../utils/auth');
 
 router.get('/', (req, res) => {
     wishlist.findAll({})
-        .then(wishlistData => res.json(wishlisttData))
+        .then(wishlistData => res.json(wishlistData))
         .catch(err => {
             console.log(err);
             res.status(500).json(err)
