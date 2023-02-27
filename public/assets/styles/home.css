@@ -1,6 +1,6 @@
 /*Welcome hero START */
 .welcome {
-    background-image: url("/assets/book7.jpg");
+    background-image: url("/assets/images/book7.jpg");
     height: 550px;
     display: flex;
     position: relative;
@@ -95,7 +95,7 @@
 .shop-grid {
     flex: 1;
     height: 500px;
-    background-image: url(/assets/book3.jpg);
+    background-image: url("/assets/images/book3.jpg");
     /*background: linear-gradient(rgba(0,0,0,0.7));*/
     display: block;
     position: relative;
@@ -118,7 +118,7 @@
 .connect-grid {
     flex: 1;
     height: 500px;
-    background-image: url(/assets/reading1.jpg);
+    background-image: url("/assets/images/reading1.jpg");
     display: block;
     position: relative;
     justify-content: center;
@@ -140,7 +140,7 @@
 .wishlist-grid {
     flex: 1;
     height: 500px;
-    background-image: url(/assets/book1.jpg);
+    background-image: url("/assets/images/book1.jpg");
     display: block;
     position: relative;
     justify-content: center;
@@ -162,7 +162,7 @@
 .bag-grid {
     flex: 1;
     height: 500px;
-    background-image: url(/assets/library.jpg);
+    background-image: url("/assets/images/library.jpg");
     display: block;
     position: relative;
     justify-content: center;
@@ -206,7 +206,7 @@
 
 
 .sustain-section {
-    background-image: url("/assets/sustain2.jpg");
+    background-image: url("/assets/images/sustain2.jpg");
     height: 550px;
     display: flex;
     position: relative;

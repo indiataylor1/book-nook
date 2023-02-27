@@ -43,17 +43,25 @@ body {
     justify-content: space-between;
 }
 
-.chat {
-    height: 30px;
-    cursor: pointer;
+.nav-links {
+
 }
+
+.nav-item {
+
+}
+
+.nav-link {
+
+}
+
 
 .wish-list {
     height: 30px;
     cursor: pointer;
 }
 
-.user {
+.profile {
     height: 40px;
     cursor: pointer;
 }
