@@ -9,12 +9,12 @@ router.get('/', (req, res) => {
             console.log(err);
             res.status(500).json(err)
         });
-    if (!wishlistData) {
+    if (!wishlist) {
         res.status(404).json({ message: '404 wishlist not found' });
         return;
     }
 
-    res.status(200).json(wishlistData);
+    res.status(200).json(wishlist);
 
 });
 
