@@ -1,4 +1,11 @@
 {
+  "development": {
+    "username": "z23n5kpshi554vut",
+    "password": "qb6cpt85na95pt3h",
+    "database": "qkq4xi4d1fah02yh",
+    "host": "ohunm00fjsjs1uzy.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql2"
+  },
   "name": "book-nook",
   "version": "1.0.0",
   "description": "1. [General Info](#general-info)\r 2. [Technologies](#technologies)\r 3. [Installation](#installation)\r 4. [Collaboration](#collaboration)\r 5. [FAQs](#faqs)\r ### General Info\r ***\r This is an application for book lovers to share reviews, browse, and add books to a shopping cart / wish list. \r ### Screenshot\r ![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)\r ## Technologies\r ***\r A list of technologies used within the project:\r * [Technology name](https://example.com): Version 12.3 \r * [Technology name](https://example.com): Version 2.34\r * [Library name](https://example.com): Version 1234\r ## Installation\r ***\r A little intro about the installation. \r ```\r $ git clone https://example.com\r $ cd ../path/to/the/file\r $ npm install\r $ npm start\r ```\r Side information: To use the application in a special environment use ```lorem ipsum``` to start\r ## Collaboration\r ***\r Collaboraters on this project are:\r > Veera\r > Joseph\r > Adam\r ## FAQs\r ***\r A list of frequently asked questions\r 1. **This is a question in bold**\r Answer to the first question with _italic words_. \r 2. __Second question in bold__ \r To answer this question, we use an unordered list:\r * First point\r * Second Point\r * Third point\r 3. **Third question in bold**\r Answer to the third question with *italic words*.\r 4. **Fourth question in bold**\r | Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |\r |:--------------|:-------------:|--------------:|\r | text-align left | text-align center | text-align right |",
