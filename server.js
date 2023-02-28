@@ -5,7 +5,6 @@ const path = require("path");
 const routes = require("./controllers");
 const helpers = require('./utils/helper');
 
-
 const PORT = process.env.PORT || 3001;
 
 const app = express();
