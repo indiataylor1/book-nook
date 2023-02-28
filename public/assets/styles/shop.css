@@ -80,25 +80,39 @@ body {
     font-size: 60px;
 }
 
-.search {
+.search-bar {
+    width: 100%;
+    max-width: 700px;
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
     align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    background-color: bisque;
+    color: black;
+    font-size: 20px;
+    border: none;
+    text-align: center;
 }
 
-.search-bar {
-    appearance: none;
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.submit-button {
     background: bisque;
     border: none;
-    outline: none;
-    cursor: pointer;
-    color: black;
-    border-radius: 20px;
-    font-size: 17px;
-    padding: 15px 30px;
-    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    margin-top: 15px;
 }
+
+
+
 
 /*Shop items START*/
 
