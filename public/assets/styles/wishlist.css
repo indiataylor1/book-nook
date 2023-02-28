@@ -88,32 +88,157 @@ body {
     font-size: 60px;
 } 
 
-.what-we-do-para {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-.para {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
 /*What we do END */
 
 /*Wish list START*/
-.grid-container {
-    background: lightseagreen;
-    display: grid;
-    grid-template-rows: 80px 200px;
+.item-1 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
 }
 
-.grid-item {
-    background: lightgreen;
-    color: red;
+.item-2 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-3 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-4 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-5 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-6 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-7 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-8 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-9 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-10 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.book-image {
+display: flex;
+width: 50px;
+height: 50px;
+border-radius: 25px;
+}
+
+.delete-button {
+width: 30px;
+height: 30px;
+background-image: url(/public/assets/images/delete.png);
+background-size: 30px 30px;
+background-color: bisque;
+border: none;
+}
+
+.delete-button:hover {
+    cursor: pointer;
 }
 
 /*Wish list END*/
