@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+/*Navbar START*/
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', serif;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-left {
+    width: 150px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.nav-nook {
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: var(--heading-color);
+    letter-spacing: -.0625rem;
+}
+
+.nav-right {
+    width: 600px;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+
+}
+
+.wish-list {
+    height: 30px;
+    cursor: pointer;
+}
+
+.home {
+    height: 30px;
+    cursor: pointer;
+}
+
+.user {
+    height: 30px;
+    cursor: pointer;
+}
+
+.shop {
+    height: 30px;
+    cursor: pointer;
+}
+/*Navbar END*/
+
+/*What we do START*/
+.what-we-do {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.what-title {
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: var(--heading-color);
+    letter-spacing: -.0625rem;
+    color: black;
+    font-size: 60px;
+} 
+
+/*What we do END */
+
+/*Wish list START*/
+.item-1 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-2 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-3 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-4 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-5 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-6 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-7 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-8 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-9 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.item-10 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;;
+}
+
+.book-image {
+display: flex;
+width: 50px;
+height: 50px;
+border-radius: 25px;
+}
+
+.delete-button {
+width: 30px;
+height: 30px;
+background-image: url(/public/assets/images/delete.png);
+background-size: 30px 30px;
+background-color: bisque;
+border: none;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+}
+
+/*Wish list END*/
