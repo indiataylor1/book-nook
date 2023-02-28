@@ -99,6 +99,9 @@ body {
     justify-content: center;
     margin-top: 50px;
     align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-left: 120px;
 }
 
 .sign-up-button {
@@ -116,6 +119,24 @@ body {
 }
 
 .sign-up-button:hover {
+    background-color: lightcoral;
+}
+
+.log-button {
+    appearance: none;
+    background: none;
+    border: solid 2px lightcoral;
+    outline: none;
+    cursor: pointer;
+    color: bisque;
+    transition: 0.4s;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 15px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.log-button:hover {
     background-color: lightcoral;
 }
 /*Welcome hero END*/
