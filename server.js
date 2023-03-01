@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
-// const hbs = handlebars.create({});
+
 // Set up Handlebars.js engine with custom helpers
 const hbs = handlebars.create({ helpers });
 
@@ -18,7 +18,6 @@ const sess = {
   cookie: {},
   resave: false,
   saveUninitialized: true,
-
 };
 
 app.use(session(sess));
