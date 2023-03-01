@@ -209,6 +209,18 @@ font-size: 35px;
     color: darkslategrey;
 }
 
+.settings-button {
+    background-image: url(/public/assets/images/settings.png);
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+    border: none;
+}
+
+.settings-button:hover {
+    cursor: pointer;
+}
+
 
 
 
