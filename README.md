@@ -3,47 +3,48 @@
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
 ### General Info
 ***
-This is an application for book lovers to share reviews, browse, and add books to a shopping cart / wish list. 
+This is an application for book lovers to share reviews, browse, and add books to a shopping cart / wish list. The user story is:
+- As a book lover, I want an application where I can browse books, and save them to a wishlist.
+- WHEN I load the application
+- THEN I see a clean poilished UI
+- WHEN I visit the home page
+- THEN I am able to log in or sign up with my email
+- WHEN I log in or sign up
+- THEN my details are saved to the database
+- WHEN I visit the shop page
+- THEN I can search for books by title, author and genre
+- WHEN I see the results listed
+- THEN I can either add them to my basket or to my wishlist
+- WHEN I visit the wishlist page
+- THEN I can see a list of items I have saved
+- WHEN I press the delete button
+- THEN my selection is deleted
+- WHEN I visit the profile page
+- THEN I can see my data
+- WHEN I click the settings button
+- THEN I can update and change my information
+
 ### Screenshot
 ![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
 ## Technologies
 ***
 A list of technologies used within the project:
-* [Technology name](https://example.com): Version 12.3 
-* [Technology name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+* HTML & CSS
+* JavaScript
+* Express
+* Node.js
+* bcrpyt
 ## Installation
 ***
-A little intro about the installation. 
+Clone the code and save to your local device. Or visit the deployed application at Heroku LINK HERE >>
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
 ## Collaboration
 ***
 Collaboraters on this project are:
-> Veera
-> Joseph
-> Adam
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer to the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question, we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer to the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+> Veera Pagadala
+> India Taylor
+> Joseph Cotteral
+> Adam Sakariya
+
