@@ -3,6 +3,7 @@
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
+5. [Heroku Link](#heroku-link)
 ### General Info
 ***
 This is an application for book lovers to share reviews, browse, and add books to a shopping cart / wish list. The user story is:
@@ -47,4 +48,8 @@ Collaboraters on this project are:
 > India Taylor
 > Joseph Cotteral
 > Adam Sakariya
+```
+##Heroku Deployed App Link
+***
+https://book-nook-1.herokuapp.com/
 
